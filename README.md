@@ -1,3 +1,6 @@
+![Alt text string](Black Modern Digital Marketing LinkedIn Banner.png)
+
+
 ## Hi there 👋
 
 <!--
