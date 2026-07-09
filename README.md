@@ -1,4 +1,5 @@
-![description](https://github.com/user/repo/blob/main/images/my-image.png?raw=true)
+<img width="1584" height="396" alt="Black Modern Digital Marketing LinkedIn Banner" src="https://github.com/user-attachments/assets/b543ba47-7831-45e4-a17a-7fc0a5b0a963" />
+
 
 
 ## Hi there 👋
