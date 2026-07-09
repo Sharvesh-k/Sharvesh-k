@@ -1,9 +1,6 @@
 <img width="1584" height="396" alt="Black Modern Digital Marketing LinkedIn Banner" src="https://github.com/user-attachments/assets/b543ba47-7831-45e4-a17a-7fc0a5b0a963" />
 
 
-
-## Hi there 👋
-
 <!--
 **Sharvesh-k/Sharvesh-k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
