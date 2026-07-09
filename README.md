@@ -1,5 +1,4 @@
-![Alt text string](<img width="1584" height="396" alt="Black Modern Digital Marketing LinkedIn Banner" src="https://github.com/user-attachments/assets/65ffd5b8-50df-4f40-8d8b-d961c42ca95b" />
-)
+![description](https://github.com/user/repo/blob/main/images/my-image.png?raw=true)
 
 
 ## Hi there 👋
