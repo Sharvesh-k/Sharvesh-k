@@ -1,5 +1,5 @@
-<pre style="color:#58a6ff;">
-$ sharfetch                                                                                                                                                 
+```ansi
+$ sharfetch                                                                                                                                               
 
                         .::.                                                                                                
                 :         ..::::..::                                                                                        
@@ -23,4 +23,4 @@ $ sharfetch
                                                                                 ##:%+   -.#                                 
                                                                                 ** +:     =                                 
                                                                                :- . 
-</pre>                                       
+```                                      
