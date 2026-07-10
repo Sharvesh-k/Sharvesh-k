@@ -2,7 +2,7 @@ $ sharfetch
 ```console
       ASCII ART                         sharvesh@github
       #########                         ─────────────────────────────
-    ####     ####                       Role        : Java Backend Developer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    ####     ####                       Role        : Java Backend Developer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
    ###         ###                      Education   : B.Tech AI & DS
     ####     ####                       Languages   : Java, Python, SQL
       #########                         Framework   : Spring Boot
