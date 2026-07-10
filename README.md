@@ -1,6 +1,7 @@
-<pre style="color:#58a6ff">
+```ansi
+[34m
+$ sharfetch
 
-$ sharfetch                                                                                                                                              
                         .::.
                 :         ..::::..::
                              ..       .--:--:-
@@ -23,4 +24,5 @@ $ sharfetch
                                                                                 ##:%+   -.#
                                                                                 ** +:     =
                                                                                :- .
-</pre>                                     
+
+```
