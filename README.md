@@ -2,7 +2,7 @@ $ sharfetch
 ```console
       ASCII ART                         sharvesh@github
       #########                         ─────────────────────────────
-    ####     ####                       Role        : Java Backend Developer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    ####     ####                       Role        : Java Backend Develope,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
    ###         ###                      Education   : B.Tech AI & DS
     ####     ####                       Languages   : Java, Python, SQL
       #########                         Framework   : Spring Boot
@@ -10,16 +10,7 @@ $ sharfetch
                                         IDE         : IntelliJ IDEA
                                         Editor      : VS Code
 
-                                        Current     : FlowTrack
-                                        Learning    : Docker
-                                                      AWS
-                                                      System Design
-
-                                        Contacts
-                                        ─────────────────────────────
-                                        GitHub      : github.com/Sharvesh-k
-                                        Email       : ssharveshkj@gmail.com
-```
+                                        Current     : Flo
 
 
 
@@ -31,3 +22,17 @@ $ sharfetch
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+####     ####                       Role        : Java Backend Develope,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
