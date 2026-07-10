@@ -1,5 +1,4 @@
-```ansi
-[34m
+```console
 $ sharfetch
 
                         .::.
