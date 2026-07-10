@@ -1,5 +1,5 @@
-$ sharfetch
-```console                                                                                                                                                  
+<pre style="color:#58a6ff;">
+$ sharfetch                                                                                                                                                 
 
                         .::.                                                                                                
                 :         ..::::..::                                                                                        
@@ -23,4 +23,4 @@ $ sharfetch
                                                                                 ##:%+   -.#                                 
                                                                                 ** +:     =                                 
                                                                                :- . 
-```                                        
+</pre>                                       
