@@ -31,11 +31,6 @@ $ sharfetch
                                  +                                                                        
                                 +                                                                         
 
-
-Name      : Sharvesh K
-Role      : Java Backend Developer
-Project   : FlowTrack
-Learning  : Spring Boot
 ```
 
 </td>
