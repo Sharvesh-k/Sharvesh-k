@@ -1,6 +1,3 @@
-![Example Game](example.gif)
-
-
 ```console
 $ sharfetch
 
@@ -28,3 +25,4 @@ $ sharfetch
                                                                                :- .
 
 ```
+![Example Game](example.gif)
