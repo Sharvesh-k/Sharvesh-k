@@ -1,3 +1,6 @@
+![Example Game](example.gif)
+
+
 ```console
 $ sharfetch
 
