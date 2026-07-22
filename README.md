@@ -25,4 +25,4 @@ $ sharfetch
                                                                                :- .
 
 ```
-![Example Game](example.gif)
+![My GitHub Game](game.gif)
