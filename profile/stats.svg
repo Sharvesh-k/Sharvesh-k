@@ -9,11 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">SHARVESH K&#39;s GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 183, Total PRs: 0, Total Issues: 0, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 185, Total PRs: 0, Total Issues: 0, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #58A6FF;
+            fill: #FFFFFF;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #58A6FF;
+      fill: #FFFFFF;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #58A6FF;
+      stroke: #FFFFFF;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #58A6FF;
+      stroke: #FFFFFF;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 222.93556092301068;
+        stroke-dashoffset: 222.79610192615456;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >183</text>
+      >185</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
