@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="170" viewBox="0 0 495 170">
-  <rect width="495" height="170" rx="6" fill="#0D1117"/>
+  <rect width="495" height="170" rx="6" fill="none"/>
   <rect x="0.75" y="0.75" width="493.5" height="168.5" rx="5.25" fill="none" stroke="#30363D" stroke-width="1.5"/>
 
   <text x="24" y="35" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F0F0F0">Most Used Languages</text>
