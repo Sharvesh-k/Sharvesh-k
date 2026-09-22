@@ -1,9 +1,9 @@
 <br>
 
-<table>
+<table border="0">
 <tr>
 
-<td width="50%" align="center">
+<td width="50%" align="center" valign="middle">
 
 <img src="./assets/terminal.svg"
      width="100%"
@@ -11,7 +11,7 @@
 
 </td>
 
-<td width="50%" align="center">
+<td width="50%" align="center" valign="middle">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
