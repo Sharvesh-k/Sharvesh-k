@@ -24,13 +24,126 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate Top Languages
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: '{"username":"${{ github.repository_owner }}","layout":"compact","langs_count":6,"hide_progress":false,"bg_color":"0D1117","title_color":"FFFFFF","text_color":"FFFFFF","border_color":"30363D"}'
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate Custom Monochrome Languages Card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 <<'PY'
+          import os
+          import json
+          import urllib.request
+          from collections import defaultdict
+
+          token = os.environ["GITHUB_TOKEN"]
+          username = os.environ["GITHUB_USERNAME"]
+
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Accept": "application/vnd.github+json",
+              "User-Agent": "github-actions"
+          }
+
+          def github_api(url):
+              request = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(request) as response:
+                  return json.loads(response.read().decode())
+
+          repositories = github_api(
+              f"https://api.github.com/users/{username}/repos?per_page=100"
+          )
+
+          language_totals = defaultdict(int)
+
+          for repo in repositories:
+              if repo["fork"]:
+                  continue
+
+              languages_url = repo["languages_url"]
+              languages = github_api(languages_url)
+
+              for language, amount in languages.items():
+                  language_totals[language] += amount
+
+          language_totals = dict(
+              sorted(
+                  language_totals.items(),
+                  key=lambda item: item[1],
+                  reverse=True
+              )[:6]
+          )
+
+          total = sum(language_totals.values())
+
+          if total == 0:
+              language_totals = {"No data": 1}
+              total = 1
+
+          colors = [
+              "#FFFFFF",
+              "#BDBDBD",
+              "#929292",
+              "#686868",
+              "#454545",
+              "#303030"
+          ]
+
+          width = 420
+          bar_x = 18
+          bar_y = 78
+          bar_width = 384
+          bar_height = 12
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
+              width="450"
+              height="220"
+              viewBox="0 0 450 220">
+
+            <rect width="450" height="220"
+                  rx="5"
+                  fill="#0D1117"
+                  stroke="#30363D"/>
+
+            <text x="18" y="32"
+                  font-family="Arial, Helvetica, sans-serif"
+                  font-size="18"
+                  font-weight="bold"
+                  fill="#FFFFFF">
+              Most Used Languages
+            </text>
+
+            <rect x="{bar_x}" y="{bar_y}"
+                  width="{bar_width}"
+                  height="{bar_height}"
+                  rx="6"
+                  fill="#303030"/>
+          '''
+
+          current_x = bar_x
+
+          for index, (language, amount) in enumerate(language_totals.items()):
+              segment_width = bar_width * amount / total
+
+              svg += f'''
+              <rect x="{current_x:.2f}"
+                    y="{bar_y}"
+                    width="{segment_width:.2f}"
+                    height="{bar_height}"
+                    fill="{colors[index % len(colors)]}"/>
+              '''
+
+              current_x += segment_width
+
+          svg += "</svg>"
+
+          os.makedirs("profile", exist_ok=True)
+
+          with open("profile/top-langs.svg", "w", encoding="utf-8") as file:
+              file.write(svg)
+
+          print("Generated custom monochrome language card.")
+          print(language_totals)
+          PY
 
       - name: Commit generated cards
         run: |
