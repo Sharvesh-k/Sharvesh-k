@@ -1,66 +1,27 @@
 <br>
 
-<table
-  width="100%"
-  border="1"
-  cellspacing="0"
-  cellpadding="0"
-  style="border-collapse: collapse;"
->
+<table border="1" cellspacing="0" cellpadding="0" width="100%">
 <tr>
 
-<td
-  width="50%"
-  align="center"
-  valign="middle"
-  style="border-right: 1px solid #30363d;"
->
+<td width="50%" align="center" valign="middle">
 
-<img
-  src="./assets/terminal.svg"
-  width="100%"
-  alt="Sharvesh K terminal profile"
->
+<img src="./assets/terminal.svg"
+     width="100%"
+     alt="Sharvesh K terminal profile">
 
 </td>
 
-<td
-  width="50%"
-  align="center"
-  valign="middle"
->
+<td width="50%" align="center" valign="middle">
 
-<table
-  width="100%"
-  border="0"
-  cellspacing="0"
-  cellpadding="0"
->
-
+<table width="100%" cellspacing="0" cellpadding="0">
 <tr>
 
-<td
-  align="center"
-  valign="middle"
-  style="border-bottom: 1px solid #30363d;"
->
+<td align="center">
 
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./profile/stats-dark.svg"
-  >
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./profile/stats-light.svg"
-  >
-
-  <img
-    src="./profile/stats-light.svg"
-    width="100%"
-    alt="GitHub Stats"
-  >
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg">
+  <img src="./profile/stats-light.svg" width="100%" alt="GitHub Stats">
 </picture>
 
 </td>
@@ -69,33 +30,17 @@
 
 <tr>
 
-<td
-  align="center"
-  valign="middle"
->
+<td align="center">
 
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./profile/top-langs-dark.svg"
-  >
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./profile/top-langs-light.svg"
-  >
-
-  <img
-    src="./profile/top-langs-light.svg"
-    width="100%"
-    alt="Most Used Languages"
-  >
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg">
+  <img src="./profile/top-langs-light.svg" width="100%" alt="Most Used Languages">
 </picture>
 
 </td>
 
 </tr>
-
 </table>
 
 </td>
