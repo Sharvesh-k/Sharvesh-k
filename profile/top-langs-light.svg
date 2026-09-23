@@ -3,63 +3,72 @@
         height="170"
         viewBox="0 0 450 170">
 
-      <rect width="450"
-            height="170"
-            rx="5"
-            fill="none"
-            stroke="none"/>
+      <rect
+          width="450"
+          height="170"
+          rx="5"
+          fill="none"
+          stroke="none"/>
 
-      <text x="18"
-            y="32"
-            font-family="Arial, Helvetica, sans-serif"
-            font-size="18"
-            font-weight="bold"
-            fill="#24292F">
+      <text
+          x="18"
+          y="32"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="18"
+          font-weight="bold"
+          fill="#24292F">
         Most Used Languages
       </text>
 
-      <rect x="18"
-            y="65"
-            width="414"
-            height="12"
-            rx="6"
-            fill="#D0D7DE"/>
+      <rect
+          x="18"
+          y="65"
+          width="414"
+          height="12"
+          rx="6"
+          fill="#D0D7DE"/>
     
-        <rect x="18.00"
-              y="65"
-              width="278.56"
-              height="12"
-              fill="#24292F"/>
+        <rect
+            x="18.00"
+            y="65"
+            width="278.56"
+            height="12"
+            fill="#24292F"/>
 
-        <circle cx="18"
-                cy="99"
-                r="4"
-                fill="#24292F"/>
+        <circle
+            cx="18"
+            cy="99"
+            r="4"
+            fill="#24292F"/>
 
-        <text x="28"
-              y="103"
-              font-family="Arial, Helvetica, sans-serif"
-              font-size="11"
-              fill="#24292F">
+        <text
+            x="28"
+            y="103"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="11"
+            fill="#24292F">
           Java 67.29%
         </text>
         
-        <rect x="296.56"
-              y="65"
-              width="135.44"
-              height="12"
-              fill="#57606A"/>
+        <rect
+            x="296.56"
+            y="65"
+            width="135.44"
+            height="12"
+            fill="#57606A"/>
 
-        <circle cx="225"
-                cy="99"
-                r="4"
-                fill="#57606A"/>
+        <circle
+            cx="225"
+            cy="99"
+            r="4"
+            fill="#57606A"/>
 
-        <text x="235"
-              y="103"
-              font-family="Arial, Helvetica, sans-serif"
-              font-size="11"
-              fill="#24292F">
+        <text
+            x="235"
+            y="103"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="11"
+            fill="#24292F">
           Python 32.71%
         </text>
         
