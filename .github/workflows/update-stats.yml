@@ -20,7 +20,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"bg_color":"0D1117","title_color":"FFFFFF","text_color":"FFFFFF","icon_color":"FFFFFF","border_color":"30363D"}'
+          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"bg_color":"transparent","title_color":"FFFFFF","text_color":"FFFFFF","icon_color":"FFFFFF","border_color":"transparent"}'
           path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -28,7 +28,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"bg_color":"FFFFFF","title_color":"24292F","text_color":"24292F","icon_color":"24292F","border_color":"D0D7DE"}'
+          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"bg_color":"transparent","title_color":"24292F","text_color":"24292F","icon_color":"24292F","border_color":"transparent"}'
           path: profile/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -110,8 +110,8 @@ jobs:
                 <rect width="{width}"
                       height="{height}"
                       rx="5"
-                      fill="{background}"
-                      stroke="{border_color}"/>
+                      fill="none"
+                      stroke="none"/>
 
                 <text x="18"
                       y="32"
