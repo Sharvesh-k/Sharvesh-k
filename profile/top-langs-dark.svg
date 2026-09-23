@@ -6,8 +6,8 @@
       <rect width="450"
             height="170"
             rx="5"
-            fill="#0D1117"
-            stroke="#30363D"/>
+            fill="none"
+            stroke="none"/>
 
       <text x="18"
             y="32"
