@@ -55,6 +55,7 @@
 <table>
   <tr>
     <td width="65%" valign="center">
+
       <p>
         I enjoy turning ideas into practical applications
         and exploring how technology can solve real-world problems.
@@ -77,27 +78,45 @@
         <i>Learning, building, breaking, and rebuilding.</i>
       </p>
 
+      <br>
+
       <p>
         <b>Connect with me</b>
       </p>
 
       <p>
         <a href="https://github.com/Sharvesh-k">
-          GitHub
+          <img
+            src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=white"
+            alt="GitHub"
+          >
         </a>
-        &nbsp;·&nbsp;
-        <a href="YOUR_LINKEDIN_URL">
-          LinkedIn
+
+        <a href="https://www.linkedin.com/in/sharvesh-k-148a45326/?isSelfProfile=true">
+          <img
+            src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=white"
+            alt="LinkedIn"
+          >
         </a>
-        &nbsp;·&nbsp;
-        <a href="mailto:YOUR_EMAIL@gmail.com">
-          Email
+
+        <a href="mailto:ssharveshkj@gmail.com">
+          <img
+            src="https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=white"
+            alt="Email"
+          >
         </a>
       </p>
+
     </td>
 
     <td width="35%" align="center">
-      <img src="assets/profile-art.gif" width="220">
+
+      <img
+        src="assets/profile-art.jpg"
+        width="220"
+        alt="Profile artwork"
+      >
+
     </td>
   </tr>
 </table>
