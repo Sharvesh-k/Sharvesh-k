@@ -1,60 +1,92 @@
 <br>
 
+<!-- ================= TERMINAL + GITHUB STATS ================= -->
+
 <table border="1" cellspacing="0" cellpadding="0" width="100%">
-<tr>
+  <tr>
 
-<td width="50%" align="center" valign="middle">
+    <td width="50%" align="center" valign="middle">
 
-<img src="./assets/terminal.svg"
-     width="100%"
-     alt="Sharvesh K terminal profile">
+      <img
+        src="./assets/terminal.svg"
+        width="100%"
+        alt="Sharvesh K terminal profile"
+      >
 
-</td>
+    </td>
 
-<td width="50%" align="center" valign="middle">
+    <td width="50%" align="center" valign="middle">
 
-<table width="100%" cellspacing="0" cellpadding="0">
-<tr>
+      <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
 
-<td align="center">
+          <td align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg">
-  <img src="./profile/stats-light.svg" width="100%" alt="GitHub Stats">
-</picture>
+            <picture>
+              <source
+                media="(prefers-color-scheme: dark)"
+                srcset="./profile/stats-dark.svg"
+              >
 
-</td>
+              <source
+                media="(prefers-color-scheme: light)"
+                srcset="./profile/stats-light.svg"
+              >
 
-</tr>
+              <img
+                src="./profile/stats-light.svg"
+                width="100%"
+                alt="GitHub Stats"
+              >
+            </picture>
 
-<tr>
+          </td>
 
-<td align="center">
+        </tr>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg">
-  <img src="./profile/top-langs-light.svg" width="100%" alt="Most Used Languages">
-</picture>
+        <tr>
 
-</td>
+          <td align="center">
 
-</tr>
-</table>
+            <picture>
+              <source
+                media="(prefers-color-scheme: dark)"
+                srcset="./profile/top-langs-dark.svg"
+              >
 
-</td>
+              <source
+                media="(prefers-color-scheme: light)"
+                srcset="./profile/top-langs-light.svg"
+              >
 
-</tr>
+              <img
+                src="./profile/top-langs-light.svg"
+                width="100%"
+                alt="Most Used Languages"
+              >
+            </picture>
+
+          </td>
+
+        </tr>
+      </table>
+
+    </td>
+
+  </tr>
 </table>
 
 <br>
 
+
+<!-- ================= MY DIGITAL WORKSHOP ================= -->
+
 <h2 align="center">My Digital Workshop</h2>
 
-<table>
+<table border="0" cellspacing="0" cellpadding="10" width="100%">
   <tr>
-    <td width="65%" valign="center">
+
+    <td width="65%" valign="middle">
 
       <p>
         I enjoy turning ideas into practical applications
@@ -109,14 +141,17 @@
 
     </td>
 
-    <td width="35%" align="center">
+    <td width="35%" align="center" valign="middle">
 
       <img
-        src="assets/profile-art.jpg"
+        src="./assets/profile-art.jpg"
         width="220"
         alt="Profile artwork"
       >
 
     </td>
+
   </tr>
 </table>
+
+<br>
