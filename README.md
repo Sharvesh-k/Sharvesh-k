@@ -92,7 +92,7 @@
           >
         </a>
 
-        <a href="https://www.linkedin.com/in/sharvesh-k-148a45326/?isSelfProfile=true">
+        <a href="https://www.linkedin.com/in/sharvesh-k-148a45326/">
           <img
             src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=white"
             alt="LinkedIn"
