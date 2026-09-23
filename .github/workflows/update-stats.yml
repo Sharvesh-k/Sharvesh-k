@@ -15,24 +15,23 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Generate Dark Stats Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"bg_color":"0D1117","title_color":"FFFFFF","text_color":"FFFFFF","icon_color":"FFFFFF","border_color":"30363D"}'
+          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"bg_color":"00000000","title_color":"FFFFFF","text_color":"FFFFFF","icon_color":"FFFFFF","border_color":"00000000"}'
           path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate Light Stats Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"bg_color":"FFFFFF","title_color":"24292F","text_color":"24292F","icon_color":"24292F","border_color":"D0D7DE"}'
+          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"bg_color":"00000000","title_color":"24292F","text_color":"24292F","icon_color":"24292F","border_color":"00000000"}'
           path: profile/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # -----------------------------------
-      # GENERATE ADAPTIVE LANGUAGE CARDS
-      # -----------------------------------
       - name: Generate Adaptive Language Cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -184,7 +183,6 @@ jobs:
 
           os.makedirs("profile", exist_ok=True)
 
-          # DARK LANGUAGE CARD
           create_card(
               "profile/top-langs-dark.svg",
               "#FFFFFF",
@@ -199,7 +197,6 @@ jobs:
               ]
           )
 
-          # LIGHT LANGUAGE CARD
           create_card(
               "profile/top-langs-light.svg",
               "#24292F",
@@ -214,9 +211,10 @@ jobs:
               ]
           )
 
-          print("Generated adaptive stats and language cards.")
+          print("Generated transparent GitHub stats and language cards.")
           print(language_totals)
           PY
+
       - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"
@@ -224,6 +222,6 @@ jobs:
 
           git add profile/*.svg
 
-          git commit -m "Update adaptive GitHub stats" || exit 0
+          git commit -m "Update transparent GitHub stats" || exit 0
 
           git push
