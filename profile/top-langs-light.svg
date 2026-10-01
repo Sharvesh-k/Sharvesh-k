@@ -31,7 +31,7 @@
         <rect
             x="18.00"
             y="65"
-            width="260.89"
+            width="259.76"
             height="12"
             fill="#24292F"/>
 
@@ -47,13 +47,13 @@
             font-family="Arial, Helvetica, sans-serif"
             font-size="11"
             fill="#24292F">
-          Java 63.02%
+          Java 62.74%
         </text>
         
         <rect
-            x="278.89"
+            x="277.76"
             y="65"
-            width="153.11"
+            width="154.24"
             height="12"
             fill="#57606A"/>
 
@@ -69,7 +69,7 @@
             font-family="Arial, Helvetica, sans-serif"
             font-size="11"
             fill="#24292F">
-          Python 36.98%
+          Python 37.26%
         </text>
         
     </svg>
