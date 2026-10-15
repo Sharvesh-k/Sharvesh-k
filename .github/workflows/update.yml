@@ -30,11 +30,11 @@ jobs:
 
           for ((i=1; i<=COMMITS; i++))
           do
-            echo "$(date) - Update elements $i" >> activity.log
+            echo "$(date) - Update elements" >> activity.log
 
             git add activity.log
 
-            git commit -m "Profile assets update #$i"
+            git commit -m "Profile assets update"
 
             sleep 2
           done
